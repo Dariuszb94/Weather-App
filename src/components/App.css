@@ -1,0 +1,37 @@
+html{
+    font-family: calibri;
+}
+.App input, .App button{
+    margin: 20px;
+    padding: 10px 20px;
+}
+.header{
+    padding-top:0.5vw;
+    padding-bottom:0.5vw;
+color:white;
+font-family: calibri;
+font-size:2vw;
+text-align: center;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("clouds.jfif");
+    background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.main{
+    margin-left:10vw;
+    margin-right:10vw;
+    padding-left:2vw;
+    padding-right:2vw;
+    background: rgb(85,114,255);
+background: linear-gradient(81deg, rgba(85,114,255,0.6646008745294993) 0%, rgba(223,226,255,0.09877454399728647) 100%);
+}
+.results{
+    display: flex;
+    flex-direction: column;
+}
+.results h5{
+background-color: white;
+border-radius: 1vw 1vw 1vw 1vw;
+padding: 0.8vw; 
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+}
